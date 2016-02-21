@@ -4,3 +4,6 @@ npm-debug.log
 
 # log
 .idea/
+
+# config
+config/
