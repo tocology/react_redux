@@ -1,23 +1,15 @@
-# ReduxSimpleStarter
+# React with Redux
 
-###Getting Started###
+This repository is for learning how to develop web application using React with Redux
 
-There are two methods for getting started with this repo.
+## Development
 
-####Familiar with Git?#####
-Checkout this repo, install depdencies, then start the gulp process with the following:
-
-```
-	> git clone git@github.com:StephenGrider/ReduxSimpleStarter.git
-	> cd ReduxSimpleStarter
-	> npm install
-	> npm start
+```console
+> npm install
 ```
 
-####Not Familiar with Git?#####
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
+## Reference
 
-```
-	> npm install
-	> npm start
-```
+Basically this project was from [ReduxSimpleStarter](https://github.com/StephenGrider/ReduxSimpleStarter).
+
+- **Udemy Lecture** : [React-Redux](https://www.udemy.com/react-redux/)
