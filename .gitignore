@@ -1,5 +1,9 @@
-# log
-**/.DS_Store
-
-# node modules
 node_modules/
+bundle.js
+npm-debug.log
+
+# log
+.idea/
+
+# config
+config/

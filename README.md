@@ -12,12 +12,25 @@ We should install packages first.
 > npm install
 ```
 
+**Getting YouTube API key**
+
+In this project, we need to get YouTube Video data by [Google API](https://console.developers.google.com).
+
+When you enter into API Manager, you can easily find **YouTube Data API**.
+At this place, you have to subscribe API key with Browser key.
+
+And then write down the key at 'config/config.js'
+
 ### Test
+
+Basically, this project uses **Webpack** and **NPM script**.
 
 ```console
 > npm start
 ```
 
 ## Reference
-- **Udemy Lecture**: [Learn and Understand React JS](https://www.udemy.com/learn-and-understand-reactjs/) 
-- **ReduxSimpleStarter**: [StephenGrider/ReduxSimpleStarter](https://github.com/StephenGrider/ReduxSimpleStarter)
+
+Basically this project was from [ReduxSimpleStarter](https://github.com/StephenGrider/ReduxSimpleStarter).
+
+- **Udemy Lecture** : [React-Redux](https://www.udemy.com/react-redux/)
