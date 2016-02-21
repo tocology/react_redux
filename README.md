@@ -12,13 +12,14 @@ This repository is for learning how to develop web application using React with 
 
 ### Preparation
 
+**Getting YouTube API key**
+
 In this project, we need to get YouTube Video data by [Google API](https://console.developers.google.com).
 
 When you enter into API Manager, you can easily find **YouTube Data API**.
 At this place, you have to subscribe API key with Browser key.
 
-And then write down the key at config.js
-
+And then write down the key at 'config/config.js'
 
 ## Reference
 
