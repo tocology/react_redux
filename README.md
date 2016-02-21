@@ -21,6 +21,14 @@ At this place, you have to subscribe API key with Browser key.
 
 And then write down the key at 'config/config.js'
 
+### Test
+
+Basically, this project uses **Webpack** and **NPM script**.
+
+```console
+> npm start
+```
+
 ## Reference
 
 Basically this project was from [ReduxSimpleStarter](https://github.com/StephenGrider/ReduxSimpleStarter).
