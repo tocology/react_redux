@@ -21,6 +21,10 @@ At this place, you have to subscribe API key with Browser key.
 
 And then write down the key at 'config/config.js'
 
+**Base Information**
+
+This project uses the Bootstrap basically. You can find that CDN of Bootstrap has been wrote on '/index.html'
+
 ### Test
 
 Basically, this project uses **Webpack** and **NPM script**.
