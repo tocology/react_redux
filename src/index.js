@@ -5,10 +5,7 @@ import YTSearch from 'youtube-api-search'
 import { Youtube_API } from '../config/config'
 
 import SearchBar from './components/search_bar'
-
-YTSearch({key: Youtube_API, term: 'surfboards'}, function(data){
-    console.log(data)
-})
+import VideoList from './components/video_list'
 
 // Create a new component. This componet should produce some HTML
 class App extends Component {
@@ -16,13 +13,18 @@ class App extends Component {
         super(props)
         
         this.state = { videos: [] }
+
+        YTSearch({key: Youtube_API, term: 'surfboards'}, (videos) => {
+            this.setState({ videos }) // { videos : videos }
+        })
     }
     
     render() {
         return (
-        <div>
-            <SearchBar />
-        </div>
+            <div>
+                <SearchBar />
+                <VideoList videos={this.state.videos}/>
+            </div>
         )
     }
 }
