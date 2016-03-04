@@ -25,6 +25,12 @@ And then write down the key at 'config/config.js'
 
 This project uses the Bootstrap basically. You can find that CDN of Bootstrap has been wrote on '/index.html'
 
+**Directory Information**
+
+There are tree different sub-projects.
+- YouTube: it is only composed of React and deals with how to get data by Ajax or communicate with components by events(callbacks)
+- BookList: it is composed of React and Redux. Especially, it deals with Action creators, so we can check the flow of whole process.
+
 ### Test
 
 Basically, this project uses **Webpack** and **NPM script**.
