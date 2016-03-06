@@ -30,6 +30,15 @@ This project uses the Bootstrap basically. You can find that CDN of Bootstrap ha
 There are tree different sub-projects.
 - YouTube: it is only composed of React and deals with how to get data by Ajax or communicate with components by events(callbacks)
 - BookList: it is composed of React and Redux. Especially, it deals with Action creators, so we can check the flow of whole process.
+- WeatherForecastChart:
+
+**Weather Data**
+
+We get the weather forecast data by OpenAPI from [OpenWeatherMap](http://openweathermap.org/forecast5).
+> Using the API, we should apply for API Key personally at first time.
+
+For further information about OpenWeatherMap API, you should access this [link](http://openweathermap.org/api).
+
 
 ### Test
 
