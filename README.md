@@ -45,6 +45,7 @@ For further information about OpenWeatherMap API, you should access this [link](
 Basically, this project uses **Webpack** and **NPM script**.
 
 ```console
+> npm install
 > npm start
 ```
 
