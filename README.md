@@ -30,7 +30,7 @@ This project uses the Bootstrap basically. You can find that CDN of Bootstrap ha
 There are tree different sub-projects.
 - YouTube: it is only composed of React and deals with how to get data by Ajax or communicate with components by events(callbacks)
 - BookList: it is composed of React and Redux. Especially, it deals with Action creators, so we can check the flow of whole process.
-- WeatherForecastChart: it is also based on React and Redux with actions. However, there is something more important. That is Redux-Promise. It works like Promise of javascript, so holding the actions until the job is finished.
+- WeatherForecastChart: it is also based on React and Redux with actions. However, there is something more important. That is Redux-Promise. It works like Promise of javascript, so holding the actions until the job is finished. Additionally, react-sparklines and react-google-maps are used to describe charts.
 
 **Weather Data**
 
