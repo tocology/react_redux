@@ -39,6 +39,11 @@ We get the weather forecast data by OpenAPI from [OpenWeatherMap](http://openwea
 
 For further information about OpenWeatherMap API, you should access this [link](http://openweathermap.org/api).
 
+**Post Data**
+
+From the lecture, he introduced a API server that has been created at [reduxblog](http://reduxblog.herokuapp.com/).
+
+So, we can get and put data at this server. For further information, you should visit this site.
 
 ### Test
 
